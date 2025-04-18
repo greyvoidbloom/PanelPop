@@ -21,14 +21,14 @@ User sessions are handled via PHP sessions. Separate interfaces for admin and cu
 ## 🧪 Admin Interface
 
 Product management tools for adding, editing, and deleting products.
-
-![Admin Ux](https://github.com/user-attachments/assets/59e71702-f02d-4e31-a9f0-41c3a701fddb)
+###Admin UX
+https://github.com/user-attachments/assets/59e71702-f02d-4e31-a9f0-41c3a701fddb
 
 ## 🛒 Customer Interface
 
 Product browsing, cart handling, and a checkout flow.
-
-![Customer UX](https://github.com/user-attachments/assets/34bd13dc-7239-4479-bb6f-24c1bfd3760d)
+###CustomerUX
+https://github.com/user-attachments/assets/34bd13dc-7239-4479-bb6f-24c1bfd3760d
 
 ## 📝 Notes
 
