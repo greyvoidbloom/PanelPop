@@ -1,0 +1,152 @@
+/* admindash.css */
+
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #fef8f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff6fb;
+    border: 3px solid #000;
+    border-radius: 10px;
+}
+
+.main-heading {
+    font-size: 2em;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 10px;
+}
+
+.sub-heading {
+    font-size: 1.5em;
+    margin: 20px 0 10px;
+    color: #444;
+    border-left: 5px solid #000;
+    padding-left: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 2px solid #000;
+    padding: 15px;
+    background-color: #fff3f0;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+input[type="text"],
+textarea,
+input[type="file"] {
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    background-color: #fffbf2;
+    font-size: 1em;
+}
+
+button {
+    padding: 10px;
+    font-size: 1em;
+    background-color: #b9e89d;
+    border: 2px solid #000;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #ffc0cb;
+    transform: scale(1.01);
+}
+
+#productList {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#productList thead th {
+    background-color: #e3f2fd;
+    color: #222;
+    padding: 10px;
+    border: 2px solid #000;
+}
+
+#productList tbody td {
+    background-color: #ffffff;
+    padding: 10px;
+    border: 2px solid #000;
+    text-align: center;
+}
+
+#productList img {
+    border: 2px solid #000;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.edit-btn,
+.delete-btn {
+    text-decoration: none;
+    padding: 6px 12px;
+    border: 2px solid #000;
+    border-radius: 4px;
+    background-color: #c0f7ff;
+    color: #000;
+    font-weight: bold;
+    margin: 2px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.edit-btn:hover {
+    background-color: #a0eaff;
+}
+
+.red-btn {
+    background-color: #ffcccc;
+}
+
+.red-btn:hover {
+    background-color: #ff9999;
+}
+
+.logout-btn {
+    display: inline-block;
+    margin-top: 30px;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+    color: #fcfcfc;
+    background-color: #f25050;
+    border: 2px solid #000;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.logout-btn:hover {
+    background-color: #ffe26f;
+}
+.dashboard-container {
+    background-color: #ffffffcc;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 30px;
+    width: 400px;
+    box-shadow: 4px 4px 0px #00000033;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
